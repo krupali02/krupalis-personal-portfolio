@@ -16,7 +16,6 @@ body {
 #navbarFull {
     background-color: rgba(37, 37, 37, 0.69) !important;
     padding: 6px;
-
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
@@ -246,7 +245,7 @@ transform: scale(1.06);
     border: none;
     background-color: rgba(255, 255, 255, 0.123);
     letter-spacing: 1.3px;
-    padding: 4px;
+    padding: 5px;
     transition: 0.4s;
 }
 
@@ -254,6 +253,7 @@ transform: scale(1.06);
     background-color: rgb(38, 236, 226);
     color: #252525;
 }
+
 
 #githubButton2 {
     color: rgb(38, 236, 226);
@@ -281,15 +281,12 @@ transform: scale(1.06);
 }
 
 #webImageRight {
-    /* margin-right: 0.8cm; */
     float: right !important;
-    opacity: 0.2;
+    opacity: 0.5;
     transition: 0.4s;
 }
 
-/* #webImageLeft {
-    margin-left: 0.8cm;
-} */
+
 #websiteCard:hover {
     border: 1px solid rgb(255, 255, 255) !important;
     box-shadow: 0 0px 7px rgba(238, 238, 238, 0.479) !important;
@@ -307,16 +304,12 @@ transform: scale(1.06);
 }
 
 #webImageLeft {
-    opacity: 0.2;
+    opacity: 0.5;
     transition: 0.4s;
 }
-/* 
-#webImageLeft:hover {
-    opacity: 1 !important;
-} */
+
 
 #samp2 {
-    /* border: #f6f5fa 1px solid; */
     float: right;
     text-align: end;
 }
@@ -340,7 +333,6 @@ transform: scale(1.06);
 #expBorder:hover {
     border: 1px solid rgb(255, 255, 255) !important;
     box-shadow: 0 0px 7px rgba(238, 238, 238, 0.479) !important;
-    /* transform: scale(1.01) !important; */
 }
 
 #expBorder:hover .expLocation{
@@ -381,7 +373,7 @@ transform: scale(1.06);
     font-weight: bold;
     color: rgb(1, 221, 210);
     font-size: 17px;
-    opacity: 0.25;
+    opacity: 0.4;
     transition: 0.4s;
     margin-top: -3cm;
   }
@@ -394,9 +386,9 @@ transform: scale(1.06);
   #loge {
     height: 40px; 
     margin-top: 0.2cm;
-     margin-left: 1cm;
-     margin-right: 1cm;
-    opacity: 0.15;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    opacity: 0.3;
     transition: 0.4s;
   }
   
