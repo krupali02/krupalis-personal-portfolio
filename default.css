@@ -58,6 +58,11 @@ body {
     transition: 0.4s;
 }
 
+.intro-text {
+    color: rgb(38, 236, 226);
+    font-weight: 500;
+}
+
 #clickHere {
     transition: 0.4s;
 }
@@ -201,6 +206,13 @@ transform: scale(1.06);
 
 }
 
+.language-mobile {
+    color: white;
+    margin-bottom: 2.5%;
+    font-size: 13px !important;
+    font-family: 'Roboto Mono', monospace;
+}
+
 .card-title {
     font-weight: 600 !important;
     color: #a7e7cf;
@@ -265,6 +277,8 @@ transform: scale(1.06);
     padding: 4px;
     transition: 0.4s;
     margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 
 #githubButton2:hover {
@@ -352,14 +366,21 @@ transform: scale(1.06);
 .expLocation {
     color: rgb(255, 0, 98) !important;
     font-family: 'Roboto Mono', monospace !important;
-    font-size: 11px !important;
-    font-weight: 300;
+    font-size: 12px !important;
+    font-weight: 400;
+    letter-spacing: 1.15px;
+
 }
 
 .expList {
     margin-top: -5px;
     font-weight: 300;
     font-size: 12.5px;
+}
+
+.experience-span {
+    color: rgb(255, 153, 0);
+    font-weight: 500;
 }
 
 /*Contact Me*/
