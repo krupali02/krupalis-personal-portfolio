@@ -206,11 +206,29 @@ transform: scale(1.06);
 
 }
 
+.case_study_mockup {
+    transition: 0.5s ease;
+    border-radius: 8px;
+}
+
+
+.case_study_mockup:hover {
+    transform: scale(1.02);
+}
+
 .language-mobile {
     color: white;
     margin-bottom: 2.5%;
     font-size: 13px !important;
     font-family: 'Roboto Mono', monospace;
+}
+
+.case-study-header {
+        color: white;
+        margin-bottom: 20% !important;
+        font-size: 13px !important;
+        font-family: 'Roboto Mono', monospace;
+    
 }
 
 .card-title {
